@@ -131,7 +131,6 @@ jQuery(window).bind("load", function() {
 	jQuery("body").addClass("loaded");
  });
 
-
 //MAILPOET
 
 if (typeof wMailpoet !== 'undefined') {
