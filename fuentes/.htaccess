@@ -1,0 +1,6 @@
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+</IfModule>
+<FilesMatch "\.(woff)$">
+    Header set Cache-Control "max-age=2629743, public"
+</FilesMatch>
