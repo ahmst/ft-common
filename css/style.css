@@ -192,7 +192,7 @@ input[type=submit]:hover,  .botonnegro:hover {background-color: #a75a62; color: 
  
 
     .diego #mainheader > div {position: absolute;left: 0;top:0; right:0;margin: auto;height: calc(100% - 60px);}
-    .diego #mainheader h1 {position: absolute;top:50px;left: 27%;z-index: 9;margin: auto; font-family: "diego"; text-transform: uppercase;font-size: 80px;font-weight: 500; width: 300px; line-height: 80px;color:white; }
+    .diego #mainheader h1 {position: absolute;top:50px;left: 27%;z-index: 9;margin: auto; font-family: "diego", sans-serif; text-transform: uppercase;font-size: 80px;font-weight: 500; width: 300px; line-height: 80px;color:white; }
     .diego #mainheader h1 a {width: 300px;}
     /*.diego #mainheader h1:before {content:""; width: 205px; height: 11px; background-color: white;left: -5px;top: 38px; position: absolute;}
     .diego #mainheader h1:after {content:""; width: 125px; height: 11px; background-color: white;left: -5px;top: 118px; position: absolute;}*/
