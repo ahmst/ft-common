@@ -42,7 +42,7 @@ if (typeof wTwitter !== "undefined") {
                 }
     
                 $.ajax({
-                    url: 'https://www.fantribes.com/ft-modules/diego/twitter/grabtweets.php',
+                    url: 'https://www.diegorey.es/caches/twitter.txt',
                     type: 'POST',
                     dataType: 'json',
                     data: request,
