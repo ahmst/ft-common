@@ -1,4 +1,4 @@
-if (typeof wTwitter !== "undefined") {
+﻿if (typeof wTwitter !== "undefined") {
 
     /////////////MODULO TWITTER
     $(document).ready(function() {
@@ -243,18 +243,19 @@ if (typeof wTwitter !== "undefined") {
         $(document).ready(function() {
             //INSTAGRAM
             $.ajax({
-                url : "<?php echo get_site_url()?>/caches/instagram.txt",
+                url : "https://www.diegorey.es/caches/instagram.txt",
                 dataType: "text",
                 success : function (data1) { $(".box.instagram").prepend(data1);}
             });
         }); 
     }
 
+
     if (typeof wActuacionesBilly !== "undefined") {
         $(document).ready(function() {
             //NUM ACTUACIONES
             $.ajax({
-                url : "<?php echo get_site_url()?>/caches/actuacionesbilly.txt",
+                url : "https://www.diegorey.es/caches/actuacionesbilly.txt",
                 dataType: "text",
                 success : function (data2) { 
                     $("#contadoractuaciones > div").prepend(data2);}
@@ -267,6 +268,7 @@ if (typeof wTwitter !== "undefined") {
 
         actuaciones = jQuery("#numactuaciones").text(); numactuaciones.innerHTML = 10;function mostrarActuaciones() {if(isScrolledIntoView('#numactuaciones')) { numactuaciones.innerHTML = actuaciones}} $(document).ready(function() { setTimeout(function(){ mostrarActuaciones(); }, 300); $(window).scroll( function(){mostrarActuaciones();});});
         
+
     }
 
 
