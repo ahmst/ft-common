@@ -534,7 +534,7 @@ footer ul#redes {float: right;width: 60px;text-align:right;}
 
 .single #comments #comments-list ul li {width: 100%;padding-left: var(--paddingX); margin-bottom: 20px;}
 .single #comments #comments-list ul li .avatar-box {float:left;margin-top: 4px;}
-.single #comments #comments-list ul li .comentario {float: left;}
+.single #comments #comments-list ul li .comentario {float: left; width: calc(100% - 60px)}
 .single #comments #comments-list ul li .comentario span {display: inline-block;}
 .single #comments #comments-list ul li .comentario span.autor {font-weight: 600;}
 .single #comments #comments-list ul li .comentario span.autor a:hover, .single #comments #comments-list ul li .comentario span.autor a:hover:before, .single #comments #comments-list ul li .comentario span.autor a:hover:after {color: var(--color5S); border-color: var(--color5S)}
