@@ -1305,7 +1305,7 @@ footer #pie #copy ul#redes li {float:none; text-align:center;display:inline-bloc
 
 @media (max-width: 600px) {
     #mainheader ul#cabecera {height: 240px;}
-    .diego #mainheader h1 {position: absolute;top:40px;left: 23px; }
+    .diego #mainheader h1 {position: absolute;top:45px;left: 23px; }
 
     #wrapper .ngg-gallery-thumbnail-box {width: calc((100% / 3) - 2px); margin-right:3px; margin-bottom: 3px;}
     #wrapper .ngg-gallery-thumbnail-box a {float:left; font-size: 0;}
