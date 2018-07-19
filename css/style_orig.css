@@ -219,7 +219,7 @@ input[type=submit]:hover,  .botonnegro:hover {background-color: var(--color5S); 
 #mainheader nav > div {height: 100%;}
 #mainheader nav > div > * {height: 100%;}
 #mainheader nav > div ul.menu {float: left; width: 100%;position: relative;}
-#mainheader nav > div ul li {margin-right: 25px;font-family: "lato", arial; font-weight: 600; color: #2e2e2e; font-size: 17px;}
+#mainheader nav > div ul li {margin-right: 25px; font-family: "lt", arial;font-weight: 700; color: #2e2e2e; font-size: 17px;}
 
 #mainheader nav > div ul.menu > li.menu-item, #mainheader nav > div ul li .elem-menu {border-bottom: 2px solid transparent;border-top: 2px solid transparent}
 #mainheader nav > div ul.menu > li, #mainheader nav > div ul.menu > li > *, #mainheader nav > div ul li .elem-menu {height: 100%;float: left;display: flex; align-items: center; justify-content: center;}
