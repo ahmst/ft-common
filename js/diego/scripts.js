@@ -42,7 +42,7 @@
                 }
     
                 $.ajax({
-                    url: 'https://www.diegorey.es/caches/twitter.txt',
+                    url: 'https://www.diegorey.es/caches/diego/twitter.txt',
                     type: 'POST',
                     dataType: 'json',
                     data: request,
@@ -242,7 +242,7 @@
         $(document).ready(function() {
             //INSTAGRAM
             $.ajax({
-                url : "https://www.diegorey.es/caches/instagram.txt",
+                url : "https://www.diegorey.es/caches/diego/instagram.txt",
                 dataType: "text",
                 success : function (data1) { $(".box.instagram").prepend(data1);}
             });
@@ -254,7 +254,7 @@
         $(document).ready(function() {
             //NUM ACTUACIONES
             $.ajax({
-                url : "https://www.diegorey.es/caches/actuacionesbilly.txt",
+                url : "https://www.diegorey.es/caches/diego/actuacionesbilly.txt",
                 dataType: "text",
                 success : function (data2) { 
                     $("#contadoractuaciones > div").prepend(data2);}
