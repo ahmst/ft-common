@@ -1,20 +1,20 @@
 /*PROCESAR POR http://cssnext.io/playground/*/
 /*ICONOS*/
 [class^="icon-"]:before, [class*=" icon-"]:before {font-family: "ahmfanfont";font-style: normal;font-weight: normal;speak: none;display: inline-block;text-decoration: inherit;width: 1em;margin-right: .2em;text-align: center;-webkit-font-feature-settings: normal;font-feature-settings: normal;font-variant: normal;text-transform: none;margin-left: .2em;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
-.icon-search-circled:before { content: '\e800'; } /* 'î €' */
-.icon-comment-alt2:before { content: '\e801'; } /* 'î ' */
-.icon-heart-filled:before { content: '\e802'; } /* 'î ‚' */
-.icon-trash:before { content: '\e803'; } /* 'î ƒ' */
-.icon-smiley:before { content: '\e804'; } /* 'î „' */
-.icon-heart:before { content: '\e805'; } /* 'î …' */
-.icon-arrows-ccw:before { content: '\e806'; } /* 'î †' */
-.icon-cog-circled:before { content: '\e807'; } /* 'î ‡' */
-.icon-mail-circled:before { content: '\e808'; } /* 'î ˆ' */
-.icon-help-circled-alt:before { content: '\e809'; } /* 'î ‰' */
-.icon-left:before { content: '\e80a'; } /* 'î Š' */
-.icon-right:before { content: '\e80b'; } /* 'î ‹' */
-.icon-off:before { content: '\e810'; } /* 'î ' */
-.icon-pencil-circled:before { content: '\e81d'; } /* 'î ' */
+.icon-search-circled:before { content: '\e800'; } /* 'î €' */
+.icon-comment-alt2:before { content: '\e801'; } /* 'î ' */
+.icon-heart-filled:before { content: '\e802'; } /* 'î ‚' */
+.icon-trash:before { content: '\e803'; } /* 'î ƒ' */
+.icon-smiley:before { content: '\e804'; } /* 'î „' */
+.icon-heart:before { content: '\e805'; } /* 'î …' */
+.icon-arrows-ccw:before { content: '\e806'; } /* 'î †' */
+.icon-cog-circled:before { content: '\e807'; } /* 'î ‡' */
+.icon-mail-circled:before { content: '\e808'; } /* 'î ˆ' */
+.icon-help-circled-alt:before { content: '\e809'; } /* 'î ‰' */
+.icon-left:before { content: '\e80a'; } /* 'î Š' */
+.icon-right:before { content: '\e80b'; } /* 'î ‹' */
+.icon-off:before { content: '\e810'; } /* 'î ' */
+.icon-pencil-circled:before { content: '\e81d'; } /* 'î ' */
 .icon-paper-plane-empty:before { content: '\f1d9'; } /* 'ï‡™' */
 .icon-twitter-circled:before { content: '\f30a'; } /* 'ïŒŠ' */
 .icon-facebook-circled:before { content: '\f30d'; } /* 'ïŒ' */
@@ -25,7 +25,7 @@
 :root {
     --color1: #bb9a80;
     --color2: #dbc9bb;
-    --color3: #4d5967;
+    --color3: #44577c;
         --color3S: #527092;
     --color4: #ca999d;
     --color5: #9e6167;
@@ -121,7 +121,7 @@
              
 
 /*ESTRUCTURALES*/
-body {/*background-color: #eeeeee; */background: url(https://www.diegorey.es/img/cached/otis-redding.png) #f1f1f1; color: #333;font-family: "pt sans", arial;}
+body {/*background-color: #eeeeee; */background: url(https://www.diegorey.es/img/cached/otis-redding.png) #f1f1f1; color: #333;font-family: "fantribes", arial;font-size: 15px;line-height: 21px; font-weight: 300;}
 * {box-sizing: border-box;outline: none; -webkit-outlne: none;}
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{padding:0;border:0;margin:0;vertical-align:baseline}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,span{display:block}.clear{clear:both}
 ul {margin: 0; padding: 0; list-style: none;}
@@ -138,8 +138,11 @@ input {outline: none;}
 .hidden,#bpfb_cancel_action, #bpfb_addVideos, #bpfb_addLinks, .qq-upload-button, #traffic-stats, #numeroonline, #activity-filter-select,.post-edit-link {display: none !important; }
 .enlacefull {top: 0; left: 0; position: absolute; z-index: 99; width: 100%; height: 100%;}
 .mb20 {margin-bottom: 20px;}
-input[type=submit], .botonnegro, .general .button, .change-avatar .button {border: 0;cursor:pointer;  background-color: #333; color: white; padding: 7px 11px; font-size: 16px; font-family: "cabin", arial; border-radius: 5px;}
+input[type=submit], .botonnegro, .general .button, .change-avatar .button {border: 0;cursor:pointer;  background-color: #333; color: white; padding: 7px 11px; font-size: 16px; font-family: "fantribes", arial; border-radius: 5px;}
 input[type=submit]:hover,  .botonnegro:hover {background-color: var(--color5S); color: white;}
+h2, h3, h4 {font-weight: 500;font-family: "fantribes", arial;letter-spacing: normal;line-height:normal;}
+b, strong {font-weight: 400;}
+p, span {letter-spacing: -0.2px;}
 
     /*BOTÓN BACK*/
     .back {cursor:pointer;position: absolute;margin-top: 6px; margin-left:-110px;   opacity: 0.3; background: transparent; border: 0;}
@@ -191,38 +194,27 @@ input[type=submit]:hover,  .botonnegro:hover {background-color: var(--color5S); 
 .widget_wysija_cont:before {content:"\E80B";pointer-events: none;z-index:99;top: 14px;right: 3px; font-family: ahmfanfont; position: absolute;color:#555555 }
 
 /*HEADER*/
-#mainheader {width: 100%;background: linear-gradient(90deg, var(--color1) 50%, var(--color5) 50%); position: relative;}
+#mainheader {width: 100%;height: 470px;background: linear-gradient(90deg, var(--color1) 50%, var(--color3) 50%); position: relative;float:left;}
 #mainheader:before {position: absolute; left: 0; top: 0; height: calc(100% - 60px); width: 50%; content:""; /*background-image: url("https://www.diegorey.es/img/fondo_cab1.png");*/}
 #mainheader:after {position: absolute; right: 0; top: 0; height: calc(100% - 60px); width: 50%; content:""; /*background-image: url("https://www.diegorey.es/img/fondo_cab2.png");*/}
-#mainheader ul#cabecera {height: 410px;z-index: 1; position:relative;}
-#mainheader ul#cabecera li {height: 100%; position: relative;overflow: hidden; }
-#mainheader ul#cabecera li img {position: absolute; }
-    #mainheader ul#cabecera li:nth-of-type(1) {width: 30%;}
-    #mainheader ul#cabecera li:nth-of-type(1) img {top: -40px;}
-    #mainheader ul#cabecera li:nth-of-type(2) {width: 47%;}
-    #mainheader ul#cabecera li:nth-of-type(2) img {}
-    #mainheader ul#cabecera li:nth-of-type(3) {width: 23%;}
+#mainheader picture#cabecera {z-index: 1; left: 0; top: 0; right: 0; margin: auto;position: absolute; width: 100%; max-width: 1913px; height: calc(100% - 60px)}
+#mainheader picture#cabecera img {width: 100%; height: 100%; object-fit: cover;}
 
-    /*COLORS*/
-    #mainheader ul#cabecera li:nth-of-type(1) {background-color: var(--color2);}
-    #mainheader ul#cabecera li:nth-of-type(2) {background-color: var(--color3);}
-    #mainheader ul#cabecera li:nth-of-type(3) {background-color: var(--color4);}
- 
 
-    .diego #mainheader > div {position: absolute;left: 0;top:0; right:0;margin: auto;height: calc(100% - 60px);}
-    .diego #mainheader h1 {position: absolute;top:50px;left: 27%;z-index: 9;margin: auto; font-family: "diego", sans-serif; text-transform: uppercase;font-size: 80px;font-weight: 500; width: 300px; line-height: 80px;color:white; }
-    .diego #mainheader h1 a {width: 300px;}
+    .diego #mainheader > div {margin: 0 auto;height: calc(100% - 60px);position: relative;}
+    .diego #mainheader h1 {position: absolute;bottom:50px;left: 0;z-index: 9;margin: auto; font-family: "diego", sans-serif; text-transform: uppercase;font-size: 80px;font-weight: 500; line-height: 80px;color:white; }
+    .diego #mainheader h1 a {word-spacing: -14px;}
     /*.diego #mainheader h1:before {content:""; width: 205px; height: 11px; background-color: white;left: -5px;top: 38px; position: absolute;}
     .diego #mainheader h1:after {content:""; width: 125px; height: 11px; background-color: white;left: -5px;top: 118px; position: absolute;}*/
 
-#mainheader nav {width: 100%; background-color: white; box-shadow:0 1px 2px 0 rgba(0,0,0,0.1); height: 60px;}
+#mainheader nav {width: 100%; float:left;background-color: white; box-shadow:0 1px 2px 0 rgba(0,0,0,0.1); height: 60px;}
 #mainheader nav > div {height: 100%;}
 #mainheader nav > div > * {height: 100%;}
 #mainheader nav > div ul.menu {float: left; width: 100%;position: relative;}
-#mainheader nav > div ul li {margin-right: 25px; font-family: "lt", arial;font-weight: 700; color: #2e2e2e; font-size: 17px;}
+#mainheader nav > div ul li {margin-right: 25px;font-family: "lato", arial; font-weight: 600; color: #2e2e2e; font-size: 17px;}
 
 #mainheader nav > div ul.menu > li.menu-item, #mainheader nav > div ul li .elem-menu {border-bottom: 2px solid transparent;border-top: 2px solid transparent}
-#mainheader nav > div ul.menu > li, #mainheader nav > div ul.menu > li > *, #mainheader nav > div ul li .elem-menu {height: 100%;float: left;display: flex; align-items: center; justify-content: center;}
+#mainheader nav > div ul.menu > li, #mainheader nav > div ul.menu > li > *, #mainheader nav > div ul li .elem-menu {height: 100%;  font-family: "fantribes", arial; font-weight: 500;float: left;display: flex; align-items: center; justify-content: center;}
 
 #mainheader nav div ul li.menu-item.current-menu-item, #mainheader nav div ul li.menu-item.current_page_parent, #mainheader nav div ul li.menu-item.current-menu-parent, #mainheader div#sidebar-menu > *:hover {border-bottom-color: #2e2e2e;}
 #mainheader nav > div ul.menu li#menu-usuario {position: absolute; right: 0;margin: 0 0 0 20px;}
@@ -245,7 +237,7 @@ input[type=submit]:hover,  .botonnegro:hover {background-color: var(--color5S); 
 
 /*FOOTER*/
 footer {text-align: left; margin-top: 15px;width: 100%;float:left; }
-footer #pie { background-color: #1d1d1d; color: white;height: 150px;padding: 35px 0 0 0;position: relative;}
+footer #pie { background-color: #1d1d1d; color: white;height: 150px;padding: 35px 0 0 0;position: relative;font-weight: 400;}
 footer #pie > div {margin: 0 auto;}
 footer > div {overflow: hidden;}
 
@@ -260,7 +252,7 @@ footer #contacto div#botonc a:hover {border-color: var(--color5S);color: var(--c
 
 footer #pie #menu {float:left;width: 240px;}
 footer #pie #menu h3 {font-size: 21px;font-weight:600; text-transform:uppercase;margin-bottom:10px;}
-footer #pie #menu ul li {padding: 3px 0;width: 120px; font-size:17px; }
+footer #pie #menu ul li {padding: 3px 0;width: 120px; font-size:17px;  }
 footer #pie #menu ul li:hover {opacity: 0.6;}
 footer #pie #menu ul li.menu-item-127 {display: none;}
 footer #pie #menu ul {width:100%;}
@@ -270,8 +262,8 @@ footer #pie #copy ul#redes {width: 93px;margin-top: 8px;}
 footer #pie #copy ul#redes li {color: white; width:30px; height: 30px;float: right;}
 footer #pie #copy ul#redes li i:before {margin-right:0;}
 footer #pie #copy ul#redes li i {font-size:23px;}
-footer .logo {position: absolute; color: white; text-transform: uppercase;font-family: "diego"; font-size: 30px;display:block;height: 40px; width: 130px; top: 0; right: 0; bottom: 0; left: 0; margin: auto; opacity: 0.3;}
-
+footer .logo {position: absolute; color: white;word-spacing: -4px; text-transform: uppercase;font-family: "diego"; font-size: 30px;display:block;height: 40px; width: 130px; top: 0; right: 0; bottom: 0; left: 0; margin: auto; opacity: 0.3;}
+footer .logo:hover {opacity: .7;}
 footer ul#redes {float: right;width: 60px;text-align:right;}
 
 /*LOGIN*/
@@ -300,13 +292,13 @@ footer ul#redes {float: right;width: 60px;text-align:right;}
 #contenedorlogin .login-submit input:hover {background-color: white; color: black;}
 
 /*WRAPPER*/
-#wrapper {padding-top: 45px;}
+#wrapper {padding-top: 45px;float: left;width: 100%;}
 .buddypress #wrapper {padding-top: 25px;}
 .buddypress #postsdestacados {float: left; margin-bottom: 8px}
 
 /*BOXES*/
 .box:not([class*="dst"]) {border-radius: 7px;box-shadow:1px 2px 2px 0px rgba(0,0,0,0.10)/*0px 1px 2px 0 rgba(0,0,0,0.1)*/;transition: all .2s ease;background-color: white;float: left;position: relative; overflow: hidden; padding: 18px var(--paddingX)}
-.box h3 {font-family: "lt", arial;margin-bottom: 6px;font-size: 21px;}
+.box h3 {margin-bottom: 6px;font-size: 21px;}
 .box.noticia:hover, .box.destacado:hover {transition: all .2s ease; transform:scale(1.05)}
 .box.nostyle {background-color: transparent; box-shadow: none;} 
 .box.nopadding {padding: 0;}
@@ -314,7 +306,8 @@ footer ul#redes {float: right;width: 60px;text-align:right;}
     
     /*INFO POST*/
     .box .info {position: absolute;display:inline;left: 20px; top: 18px; z-index:99;}
-    .box .info span {padding: 4px 10px 6px 10px;display: inline-block; border-radius: 50px;font-weight: bold; }
+    .imagen .info {display: none;} 
+    .box .info span {padding: 6px 10px 4px 10px;display: inline-block; font-weight: 400; }
     .box .info .comentarios {background-color: #333; color: white; margin-left: 5px; transition: all .2s ease;}
     .box.destacado .info .comentarios {display: none;}
     .box .info .comentarios:before {content: '\e801'; margin-right: 5px;font-family: ahmfanfont;font-weight: normal;}
@@ -339,15 +332,15 @@ footer ul#redes {float: right;width: 60px;text-align:right;}
     .box.destacado > a {width: 100%; height: 100%;background-color:black;float:left; }
     .box.destacado > a:before {content:""; position: absolute; bottom: 0; left: 0; width: 100%; height: 50%; z-index: 1; background: linear-gradient(to top, rgba(0,0,0,0.45) 0%,rgba(0,0,0,0) 100%);}
     .box.destacado > a img {width: 100%; height: 100%; object-fit: cover;opacity: 0.9;}
-    .box.destacado h3 {position: absolute;width: calc(100% - 40px); margin:0;font-weight: 600;left: 20px; bottom: 20px; color: white; font-size: 23px; z-index:99;}
+    .box.destacado h3 {position: absolute;width: calc(100% - 40px);line-height: normal; margin:0;font-weight: 600;left: 20px; bottom: 20px; color: white; font-size: 23px; z-index:99;}
     
 
     /*BOX NOTICIA*/
     .box.noticia {padding: 0;}
-    .box.noticia p {font-size: 16px;}
+    .box.noticia p {font-size: 15px;line-height: 21px;}
     .box.noticia > a {float: left;height: 100%;}
     .box.noticia header {padding: 18px var(--paddingX);float: left;}
-    .box.noticia h3 {font-size: 20px;line-height: 26px;transition: all .2s ease;}
+    .box.noticia h3 {font-size: 21px;line-height: 27px;transition: all .2s ease;}
     .box.noticia.medium h3 {width: calc(100% - 20px)}
     .box.noticia .imagen {height: 203px;width: 100%;overflow: hidden;float: left;}
     .box.noticia .imagen img {width: 100%; height: 100%; object-fit: cover;}
@@ -372,10 +365,10 @@ footer ul#redes {float: right;width: 60px;text-align:right;}
     .box.twitter header {position: absolute; bottom: 0; left: 0; width: 100%; height: 50px; background-color: #1da1f2; }
     /*.box.twitter header:before {content:"";bottom: 100%; left: 0; width: 100%; height: 200px; position: absolute;background: linear-gradient(to top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); }*/
     .box.twitter header a {float: left; display: block; color: white;padding: 0 20px; width: 100%;}
-    .box.twitter header h3 {text-transform: uppercase; font-weight: 600; font-family: "pt sans"; float: left;margin: 0;}
+    .box.twitter header h3 {text-transform: uppercase; font-weight: 600; float: left;margin: 0;}
     .box.twitter header i {float: right; color: white; font-size: 18px;line-height: 24px;}
 
-    .box.twitter #vticker{background:transparent; font-size:16px;font-weight: 300;margin:0;padding: 0;height:100%;}
+    .box.twitter #vticker{background:transparent; font-size:15px;font-weight: 300;margin:0;padding: 0;height:100%;}
     .box.twitter #vticker #info .info-wrapper{padding:10px}
     .box.twitter #vticker #info a{color:#c09853;text-decoration:none; display: none;}
     .box.twitter #vticker #info p{margin:0}
@@ -401,7 +394,7 @@ footer ul#redes {float: right;width: 60px;text-align:right;}
     .box.instagram header {transition: all .2s ease;position: absolute; bottom: 0; left: 0; width: 100%; height: 50px; }
     /*.box.twitter header:before {content:"";bottom: 100%; left: 0; width: 100%; height: 200px; position: absolute;background: linear-gradient(to top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); }*/
     .box.instagram header a {float: left; display: block; color: white;padding: 0 20px; width: 100%;}
-    .box.instagram header h3 {text-transform: uppercase; font-weight: 600; font-family: "pt sans"; float: left;margin: 0;opacity:0;transition: all .2s ease;}
+    .box.instagram header h3 {text-transform: uppercase; font-weight: 600;  float: left;margin: 0;opacity:0;transition: all .2s ease;}
     .box.instagram:hover h3 {opacity: 1;}
     .box.instagram:hover header {background-color: rgba(0, 0, 0, 0.3)}
     .box.instagram header i {float: right; color: white; font-size: 20px;line-height: 24px;}
@@ -422,16 +415,16 @@ footer ul#redes {float: right;width: 60px;text-align:right;}
     .box.instagram .fadein img:nth-child(5) { animation-delay: 16s;}
 
     /*BOX ACTUACIONES*/
-    .box.actuaciones {text-align: center;}
+    .box.actuaciones {text-align: center; }
     .box.actuaciones:before {content:""; position: absolute; bottom:0; left: 0; width: 100%; height: 150px;background-color: #d31f25;z-index: 1;}
     /*.box.actuaciones:after {content:""; position: absolute; bottom: 36%;left: -571px;width: 1477px;height: 5000px;border-radius: 8000px; background-color: white;z-index: 0;}*/
     .box.actuaciones:after { z-index:2;position: absolute;margin-left: -10px; bottom: calc(36% - 3px); width: 0;height: 0;border-style: solid;border-width: 9px 8.5px 0 8.5px;border-color: #ffffff transparent transparent transparent;}
     .box.actuaciones > div {bottom: 27px;position: absolute;margin:0; z-index: 1;left:0;right:0;color: white;}
-    .box.actuaciones > div p { font-size: 19px;margin-top:7px; }
-    .box.actuaciones #numactuaciones {line-height: 86px;font-size: 70px;font-weight: 600;color: #1f1f1f; letter-spacing: -2px;}
-    .box.actuaciones #actualizacion {opacity: 0.6;color:white;font-weight: 600;font-size: 14px;display: block; margin-top: 10px;}
+    .box.actuaciones > div p { font-size: 17px;margin-top:7px; }
+    .box.actuaciones #numactuaciones {line-height: 87px;font-size: 70px;font-weight: 500;color: #1f1f1f; letter-spacing: -2px;}
+    .box.actuaciones #actualizacion {opacity: 0.6;color:white;font-weight: 400;font-size: 14px;display: block; margin-top: 10px;}
     .box.actuaciones img {width: 240px;}
-    .box.actuaciones > p {font-size: 17px; padding: 0 15px;margin-top: 26px;}
+    .box.actuaciones > p {font-size: 17px; padding: 0 15px;margin-top: 26px;line-height: 25px;}
     .box.actuaciones > p a {font-weight: 600; margin: 12px 5px; border-bottom: 2px solid #1f1f1f; display: inline-block;}
     .box.actuaciones > p a:hover {color: #d31f25; border-color:#d31f25}
     .odometer.odometer-auto-theme,.odometer.odometer-theme-train-station{display:inline-block;vertical-align:middle;*vertical-align:auto;*zoom:1;*display:inline;position:relative}.odometer.odometer-auto-theme .odometer-digit,.odometer.odometer-theme-train-station .odometer-digit{height: 87px;display:inline-block;vertical-align:middle;*vertical-align:auto;*zoom:1;*display:inline;position:relative}.odometer.odometer-auto-theme .odometer-digit .odometer-digit-spacer,.odometer.odometer-theme-train-station .odometer-digit .odometer-digit-spacer{display:inline-block;vertical-align:middle;*vertical-align:auto;*zoom:1;*display:inline;visibility:hidden}.odometer.odometer-auto-theme .odometer-digit .odometer-digit-inner,.odometer.odometer-theme-train-station .odometer-digit .odometer-digit-inner{text-align:left;display:block;position:absolute;top:0;left:0;right:0;bottom:0;overflow:hidden}.odometer.odometer-auto-theme .odometer-digit .odometer-ribbon,.odometer.odometer-theme-train-station .odometer-digit .odometer-ribbon{display:block}.odometer.odometer-auto-theme .odometer-digit .odometer-ribbon-inner,.odometer.odometer-theme-train-station .odometer-digit .odometer-ribbon-inner{display:block;-webkit-backface-visibility:hidden}.odometer.odometer-auto-theme .odometer-digit .odometer-value,.odometer.odometer-theme-train-station .odometer-digit .odometer-value{display:block;-webkit-transform:translateZ(0)}.odometer.odometer-auto-theme .odometer-digit .odometer-value.odometer-last-value,.odometer.odometer-theme-train-station .odometer-digit .odometer-value.odometer-last-value{position:absolute}.odometer.odometer-auto-theme.odometer-animating-up .odometer-ribbon-inner,.odometer.odometer-theme-train-station.odometer-animating-up .odometer-ribbon-inner{-webkit-transition:-webkit-transform 2s;-moz-transition:-moz-transform 2s;-ms-transition:-ms-transform 2s;-o-transition:-o-transform 2s;transition:transform 2s}.odometer.odometer-auto-theme.odometer-animating-up.odometer-animating .odometer-ribbon-inner,.odometer.odometer-theme-train-station.odometer-animating-up.odometer-animating .odometer-ribbon-inner{-webkit-transform:translateY(-100%);-moz-transform:translateY(-100%);-ms-transform:translateY(-100%);-o-transform:translateY(-100%);transform:translateY(-100%)}.odometer.odometer-auto-theme.odometer-animating-down .odometer-ribbon-inner,.odometer.odometer-theme-train-station.odometer-animating-down .odometer-ribbon-inner{-webkit-transform:translateY(-100%);-moz-transform:translateY(-100%);-ms-transform:translateY(-100%);-o-transform:translateY(-100%);transform:translateY(-100%)}.odometer.odometer-auto-theme.odometer-animating-down.odometer-animating .odometer-ribbon-inner,.odometer.odometer-theme-train-station.odometer-animating-down.odometer-animating .odometer-ribbon-inner{-webkit-transition:-webkit-transform 2s;-moz-transition:-moz-transform 2s;-ms-transition:-ms-transform 2s;-o-transition:-o-transform 2s;transition:transform 2s;-webkit-transform:translateY(0);-moz-transform:translateY(0);-ms-transform:translateY(0);-o-transform:translateY(0);transform:translateY(0)}.odometer.odometer-auto-theme,.odometer.odometer-theme-train-station{}.odometer.odometer-auto-theme .odometer-digit,.odometer.odometer-theme-train-station .odometer-digit{display:inline-block;vertical-align:middle;*vertical-align:auto;*zoom:1;*display:inline;-moz-border-radius:.1em;-webkit-border-radius:.1em;border-radius:.1em;background-image:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzExMTExMSIvPjxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjMTExMTExIi8+PHN0b3Agb2Zmc2V0PSI1NSUiIHN0b3AtY29sb3I9IiMzMzMzMzMiLz48c3RvcCBvZmZzZXQ9IjU1JSIgc3RvcC1jb2xvcj0iIzExMTExMSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzExMTExMSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==);background-size:100%;background-image:-webkit-gradient(linear,50% 0%,50% 100%,color-stop(0%,#111),color-stop(35%,#111),color-stop(55%,#333),color-stop(55%,#111),color-stop(100%,#111));background-image:-moz-linear-gradient(top,#111 0%,#111 35%,#333 55%,#111 55%,#111 100%);background-image:-webkit-linear-gradient(top,#111 0%,#111 35%,#333 55%,#111 55%,#111 100%);background-image:linear-gradient(to bottom,#111 0%,#111 35%,#333 55%,#111 55%,#111 100%);background-color:#222;padding:0 .15em;color:#fff}.odometer.odometer-auto-theme .odometer-digit + .odometer-digit,.odometer.odometer-theme-train-station .odometer-digit + .odometer-digit{margin-left:.1em}.odometer.odometer-auto-theme .odometer-digit .odometer-digit-inner,.odometer.odometer-theme-train-station .odometer-digit .odometer-digit-inner{left:.15em}
@@ -440,7 +433,7 @@ footer ul#redes {float: right;width: 60px;text-align:right;}
 .page-id-32 #wrapper {max-width: 100%;padding-bottom: 40px; position: relative;overflow:hidden;}
 .page-id-32 #wrapper #fondo {width: 100%; height: 100%; z-index:-1;content:""; opacity: 0;position: absolute; transition: all .5s linear; left: 0; top: 0;background-image: url('https://www.diegorey.es/img/fondo_bio.jpg'); background-position: center top; background-size: cover;}
 .page-id-32.loaded #wrapper #fondo {opacity: 1;}
-.page-id-32 #content h1 {font-size: 35px;font-family: "cabin"}
+.page-id-32 #content h2 {font-size: 35px;}
 .page-id-32 #content {position: relative;}
 .page-id-32 #content header {max-width: 500px;}
 .page-id-32 #content p{margin: 20px 0px; font-size: 17px;line-height: 24px;}
@@ -486,11 +479,11 @@ footer ul#redes {float: right;width: 60px;text-align:right;}
 .single article header {width: 100%; overflow:hidden;position: relative;}
 .single article header .img img{object-fit: cover; width: 100%; height: 100%;}
 .single article header .img {width: 100%; height: 400px;overflow:hidden; border-radius: 8px;margin-top: 5px;;}
-.single article header h2 {font-size: 45px;text-align: center; margin: 0 auto;margin-bottom: 20px;width: 100%; max-width: 680px;line-height: 57px;font-weight: 600;font-family: "cabin", arial}
+.single article header h2 {font-size: 43px;text-align: center; margin: 0 auto;margin-bottom: 18px;margin-top: 2px;letter-spacing: -0.5px;width: calc(100% - 30px); max-width: 680px;line-height: 57px;font-weight: 600;}
 
 
 .single article header #data, .single .entry-content {max-width: 650px; margin: 0 auto;margin-bottom: 35px;}
-.single article header #data {border-bottom: 2px dotted #c6c6c6;margin-bottom: 15px;font-family: "pt sans";font-size: 23px; line-height: 41px;padding-bottom: 13px;padding-top: 20px;}
+.single article header #data {background-image:url('https://www.diegorey.es/img/fondo_lineas1.png'); font-weight: 500;background-repeat: repeat-x; background-position: bottom;margin-bottom: 15px;font-size: 21px; line-height: 36px;padding-bottom: 18px;padding-top: 16px;}
 .single article header #data ul {margin: 0; padding: 0; float: right; font-size: 18px;}
 .single article header #data ul li a {color: white !important;padding: 6px 20px 18px 11px; width: 100%; height: 100%; display:block; border: 0;}
 .single article header #data ul li {display: inline-block;line-height: normal; float: right; height: 36px; width: 36px; border-radius: 100px; margin-left: 5px;}
@@ -504,29 +497,28 @@ footer ul#redes {float: right;width: 60px;text-align:right;}
 .single article header #data ul li.email {background-color: #ffa64d;color: white; position: relative;overflow: hidden;}
 .single article header #data ul li.email:hover {background-color:#ff9933}
 .single article header #data ul li.email i {font-size: 16px;}
-.single article header #data span {float: left;}
+.single article header #data span {float: left;display:inline-block;}
+.single article header #data span#nottit {margin-right: 5px;}
 .single article header #data time {color: var(--color5S);}
 .single article header #data span a {text-decoration: none; color: #1d1d1d; }
 .single article header #data #marcapg {background-color: var(--color5S); text-align: center; color: white; border-radius: 100px; background-image: url('https://www.diegorey.es/img/cached/favicon/diego/android-chrome-192x192.png');overflow: hidden; margin-right: 12px;width: 36px; height: 36px; background-size: 80%; background-position: center center;}
 
-.single article .entry-content p { font-size: 18px; margin-top: 24px;color: #333;text-align: justify; font-family: "pt sans"; line-height: 25px;}
-.single article .entry-content p:first-of-type {margin-top: 0;}
-.single article .entry-content p strong {font-weight: 600;}
-.single article .entry-content p a {display: inline-block; border-bottom: 1px dotted #333;}
+.single article .entry-content p { font-size: 17px;font-weight: 300; margin-top: 22px;color: black;text-align: justify; line-height: 26px;}
+.single article .entry-content p:first-of-type {margin-top: 0;} 
+.single article .entry-content p a {display: inline-block; border-bottom: 2px dotted #333;}
 
-.single #comments {float:left; font-size: 17px;}
 .single #comments label {font-weight: 600;}
 .single #comments .comment-form.box {width: 100%;padding-top: 25px; overflow: hidden;padding-bottom: 25px;margin-top: 5px;margin-bottom: 20px;position: relative;}
 .single #comments.invitado .comment-form.box{height:85px; }
 .single #comments.invitado .comment-form.box.desplegado {height: 329px;}
 .single #comments .comment-form.box > * {float:left;}
 .single #comments .comment-form.box > .form-submit {position: absolute; right: 0; top: var(--paddingX) + 7px; right: var(--paddingX);}
-.single #comments .comment-form.box > textarea {width: calc(100% - 130px); margin-right: 15px;transition: all .2s ease;}
+.single #comments .comment-form.box > textarea {width: calc(100% - 130px); margin-right: 15px;transition: all .2s ease;line-height: 26px;}
 .single #comments .comment-form.box > textarea:focus, .single #comments input[type=text]:focus, .single #comments .comment-form.box > textarea:hover, .single #comments input[type=text]:hover {border-color: #333;}
-.single #comments textarea, .single #comments input[type=text] {height: 35px; border: 0; border-bottom: 2px solid #e2e2e2; font-family: "pt sans"; font-size: 17px}
+.single #comments textarea, .single #comments input[type=text] {height: 35px; border: 0; border-bottom: 2px solid #e2e2e2; font-family: "fantribes"; font-size: 17px}
 .single #comments input[type=text] {width: calc(100% - var(--paddingX));}
 .single #comments .logged-in-as, .single #comments .says {display: none;}
-.single #comments div.avatar-box {width: 35px; height: 35px; border-radius: 100px;float: left; overflow:hidden;margin-right: 15px; background-image: url(https://www.diegorey.es/img/avatar.png); background-size: cover;}
+.single #comments div.avatar-box {width: 40px; height: 40px; border-radius: 100px;float: left; overflow:hidden;margin-right: 15px; background-image: url(https://www.diegorey.es/img/avatar.png); background-size: cover;}
 .single #comments div.avatar-box img {width: 100%; height: 100%;}
 .single #comments .comment-form.box .comment-form-author, .g-recaptcha, .single #comments #invitacionlogin {padding-left: 50px;}
 .single #comments .comment-form.box .comment-form-author, .single #comments .comment-form.box .comment-form-email {margin-top: 20px; margin-bottom: 20px;}
@@ -544,14 +536,14 @@ footer ul#redes {float: right;width: 60px;text-align:right;}
 .single #comments #comments-list ul li p {float: left;width: 100%;clear: both;margin-top: 2px;}
  
 .tituloapt {width: 100%;margin: 0 0 20px 0; font-family: "cabin", arial;overflow: hidden; position: relative;}
-.tituloapt h4 { text-align:center; font-weight: 700;font-size: 21px;text-transform: uppercase;font-family: "pt sans";background-image: url(https://www.diegorey.es/img/fondo_lineas.png); padding-bottom: 4px; padding: 19px 0; }
+.tituloapt h4 { text-align:center; font-weight: 700;font-size: 21px;background-image: url(https://www.diegorey.es/img/fondo_lineas.png); padding-bottom: 4px; padding: 19px 0; }
 .tituloapt a { opacity: 0.4; position: absolute; right: 0; top:0;}
-.single #comments .tituloapt h4 {padding: 10px 0 25px var(--paddingX); text-align: left;background-image: url(https://www.diegorey.es/img/fondo_lineas2.png); background-repeat:repeat-x; background-position: bottom; }
+.single #comments .tituloapt h4 {padding: 10px 0 25px; text-align: center;background-image: url(https://www.diegorey.es/img/fondo_lineas2.png); background-repeat:repeat-x; background-position: bottom; }
 
 
 
 /*BUDDYPRESS*/
-#buddypress {float:left; width: 100%;}
+#buddypress {float:left; width: 100%;font-family: "pt sans"}
 .buddypress footer #contacto {display:none;}
 #buddypress .activity-list li.mini {display: none;}
 #buddypress .box#bienvenida h4 {font-size: 25px;margin: 0 0 5px 0;}
@@ -1206,7 +1198,7 @@ h1 a.bp-title-button{clear:left;float:left;margin:10px 0 20px}
 /*RESPONSIVE*/
 @media (min-width: 1000px) {
 .mobile {display:none}
-*[class*="dst12-"] > .box.destacado:first-of-type h3 { font-size: 30px; width:100%; max-width: 510px;}
+*[class*="dst12-"] > .box.destacado:first-of-type h3 { font-size: 35px; width:100%; max-width: 510px;}
 #mainheader nav > div ul li.menu-item:hover, #mainheader nav > div ul li .elem-menu:hover {border-bottom-color: #2e2e2e;}
 }
 
@@ -1219,6 +1211,7 @@ h1 a.bp-title-button{clear:left;float:left;margin:10px 0 20px}
 @media (max-width: 1000px) {
     .desktop {display: none !important;}
     #wrapper {max-width: 450px;}
+    #mainheader {height: 340px;}
     #mainheader nav {overflow-x: auto;overflow-y:hidden;}
     #mainheader nav, #wrapper, footer#footer > * {padding-left: 20px; padding-right: 20px;}
     #mainheader nav .anchocontenedor {white-space: nowrap;}
@@ -1226,24 +1219,9 @@ h1 a.bp-title-button{clear:left;float:left;margin:10px 0 20px}
     #mainheader nav > div ul.menu {white-space: nowrap;float:left;}
     #mainheader nav > div ul.menu > * {display: inline-block !important;float: none !important;margin-right: 20px;overflow:hidden;height:100%;}
     #mainheader nav > div ul.menu li#menu-usuario {position:static;display: inline-block;margin-right: 20px;}
-    
-    #mainheader ul#cabecera {height: 280px;}
-        #mainheader ul#cabecera li {float:none;}
-    #mainheader ul#cabecera li img {width: 100%; height: 100%; object-fit: cover;}
 
-    #mainheader ul#cabecera li:nth-of-type(1) {width: 100%; height: 100%;float:left;    }
-        #mainheader ul#cabecera li:nth-of-type(1) img {top: 0;object-position: center center;}
-
-  
-    #mainheader ul#cabecera li:nth-of-type(2) { display: none;width: 65%; height: 100%;float: left; background-color: #414b57;}
-        #mainheader ul#cabecera li:nth-of-type(2) img {object-position: bottom left; opacity: 0.8;}
-
-    #mainheader ul#cabecera li:nth-of-type(3) { display: none;background-color: #99414a;   width: 35%; position: absolute; right: 0; top:0}
-    
-        #mainheader ul#cabecera li:nth-of-type(3) img {opacity: 0.7; object-position: top;}
- 
-    .diego #mainheader h1 {top: 95px;}
-    .diego #mainheader h1 a {margin:0; width: 150px;display: inline-block;}
+    .diego #mainheader h1 {font-size: 60px;  left: 20px; bottom:60px;line-height: 60px; width: unset;}
+    .diego #mainheader h1 a {margin:0; display: inline-block;}
     .diego #mainheader h1 a img {width: 100%;}
 
 /*FOOTER*/
@@ -1282,9 +1260,9 @@ footer #pie #copy ul#redes li {float:none; text-align:center;display:inline-bloc
     /*NOTICIAS*/
     .single #wrapper {padding: 0;}
     .single #content > article.box {background-color: transparent; border-radius: 0; padding: 0;box-shadow: none;}
-    .single #content > article.box header h2 {margin: 0;padding: 25px 12px 25px 12px; line-height: normal;  font-size: 33px;text-align: center;}
+    .single #content > article.box header h2 {margin-bottom:0;padding: 29px 12px 21px 12px; line-height: normal;  font-size: 33px;text-align: center;}
     .single #content > article.box header .img {height: 250px;border-radius: 0;}
-    .single #content > article.box header #data {padding: 13px var(--paddingX) 9px var(--paddingX); margin-bottom: 5px;}
+    .single #content > article.box header #data {width: calc(100% - (var(--paddingX) * 2)); margin: 0 auto; margin-bottom: 5px;}
     .single #content > article.box header #data span#nottit {display: none;}
     .single #content > article.box header #data time {font-size: 20px;}
     .single #content > article, .single #content > article.box .entry-content {margin-bottom: 0px;}
@@ -1305,7 +1283,7 @@ footer #pie #copy ul#redes li {float:none; text-align:center;display:inline-bloc
 
 @media (max-width: 600px) {
     #mainheader ul#cabecera {height: 240px;}
-    .diego #mainheader h1 {position: absolute;top:45px;left: 23px; }
+    .diego #mainheader h1 {}
 
     #wrapper .ngg-gallery-thumbnail-box {width: calc((100% / 3) - 2px); margin-right:3px; margin-bottom: 3px;}
     #wrapper .ngg-gallery-thumbnail-box a {float:left; font-size: 0;}
