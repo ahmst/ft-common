@@ -119,7 +119,7 @@ jQuery.initialize(".qq-upload-file", function() {
 //EJECUTAR FUNCIONES EN LA CARGA
 jQuery(document).ready(function() {
 	jQuery("body").addClass("loaded-readed");
-	jQuery("iframe[src*='youtube.com']").wrap("<div class='videoresponsive'></div>");
+	//jQuery("iframe[src*='youtube.com']").wrap("<div class='videoresponsive'></div>");
 	addBackBtn();
 });
 jQuery(window).bind("load", function() {
