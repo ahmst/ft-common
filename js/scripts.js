@@ -120,6 +120,9 @@ jQuery.initialize(".qq-upload-file", function() {
 jQuery(document).ready(function() {
 	jQuery("body").addClass("loaded-readed");
 	//jQuery("iframe[src*='youtube.com']").wrap("<div class='videoresponsive'></div>");
+		//player de vídeo
+		jQuery("video").addClass("videoplayer");
+		jQuery(".wp-block-embed-youtube > .wp-block-embed__wrapper").addClass("plyr__video-embed videoplayer");
 	addBackBtn();
 });
 jQuery(window).bind("load", function() {
