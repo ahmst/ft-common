@@ -15,7 +15,7 @@
             numTweets: 10, //number of tweets
             appendTo: '#jstwitter', 
             cacheExpiry: 1, //get the new cache in 2 hours
-            template: '<div class="item"><a href="{URL}" target="_blank"><img id="avatar" src="https://www.diegorey.es/img/cached/diego-avatar.jpg"/></a><div class="tweet-wrapper"><span class="user">@{USER}</span><br/><span class="text">{TEXT}</span>\
+            template: '<div class="item"><a href="{URL}" target="_blank"><img id="avatar" src="https://www.diegorey.es/wp-content/site_diegorey/img/cached/diego-avatar.jpg"/></a><div class="tweet-wrapper"><span class="user">@{USER}</span><br/><span class="text">{TEXT}</span>\
                        <span class="time"><a href="{URL}" target="_blank">{AGO}</a></span></div></div>',
              //{IMG}
             // core function of jqtweet
@@ -42,7 +42,7 @@
                 }
     
                 $.ajax({
-                    url: 'https://www.diegorey.es/caches/diego/twitter.txt',
+                    url: 'https://www.diegorey.es/wp-content/site_diegorey/caches/diego/twitter.txt',
                     type: 'POST',
                     dataType: 'json',
                     data: request,
